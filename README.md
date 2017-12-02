@@ -6,8 +6,8 @@
 
 Simple rest api which shorten the url and keep in a redis database.
 
-* curl -X POST -d '{"url":"https://www.google.com"}' -H "Content-Type: application/json" http://localhost:8080/api/urls
-* curl http://localhost:8080/api/urls/{hash}
+* ```sh curl -X POST -d '{"url":"https://www.google.com"}' -H "Content-Type: application/json" http://localhost:8080/api/urls```
+* ```sh curl http://localhost:8080/api/urls/{hash}```
 
 ## url-shortener-front (React + Nodejs application)
 
