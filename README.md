@@ -1,6 +1,6 @@
 ## URL Shortener
 
-![Demo](/9waXD9igws.gif)
+![Demo](https://github.com/denistiago/url-shortener/blob/master/demo.gif)
 
 
 ## url-shortener-api  (SpringBoot Groovy + Redis)
