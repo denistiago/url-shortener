@@ -1,6 +1,7 @@
 ## URL Shortener
 
-# Solution
+![Demo](http://recordit.co/9waXD9igws.gif)
+
 
 ## url-shortener-api  (SpringBoot Groovy + Redis)
 
