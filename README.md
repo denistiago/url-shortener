@@ -6,13 +6,16 @@
 
 Simple rest api which shorten the url and keep in a redis database.
 
+* POST http://localhost:8080/api/urls
+* GET http://localhost:8080/api/urls/{hash}
+
 ## url-shortener-front (React + Nodejs application)
 
 NodeJS is serving the react application which is calling the api to generate the hash given a url, and also handling the routes.
 
-* http://localhost:3000 - display react application
-* http://localhost:3000/{hash} - fetch url from api and redirect the browser
-* http://localhost:3000/404.html - in case hash doesn't exists a not found page is displayed 
+* http://localhost:3000 - render react application
+* http://localhost:3000/{hash} - fetch from api and redirect to target url 
+* http://localhost:3000/404.html
 
 
 
